@@ -3,13 +3,15 @@ Basic Hadoop Programs
 
 ## Changes Todo
 - Change the path over here:
+```java
 FileInputFormat.addInputPath(job, new Path("input.txt"));
 FileOutputFormat.setOutputPath(job, new Path("output"));
-
+````
 - Change the output path object for every program:
+```java
  FileOutputFormat.setOutputPath(job, new Path("out45" ));
  FileInputFormat.addInputPath(job1, new Path("out45"));
-
+```
 ## MapReduce programs on files containing text 
 
 - [Find Frequency of each word in the file](/NStacks.java)
