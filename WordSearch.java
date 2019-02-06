@@ -50,7 +50,7 @@ public class WordSearch {
 
   public static void main(String[] args) throws Exception {
     Configuration conf = new Configuration();
-    conf.set("mapper.word","shubham");
+    conf.set("mapper.word","Hello"); //Key word to Search
     Job job = Job.getInstance(conf, "word count");
     job.setJarByClass(WordSearch.class);
     job.setMapperClass(TokenizerMapper.class);
