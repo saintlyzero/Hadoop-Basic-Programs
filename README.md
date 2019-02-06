@@ -1,12 +1,12 @@
 # Hadoop-Basic-Programs
 Basic Hadoop Programs
 
-# Changes Todo
-Change the path over here:
+## Changes Todo
+- Change the path over here:
 FileInputFormat.addInputPath(job, new Path("input.txt"));
 FileOutputFormat.setOutputPath(job, new Path("output"));
 
-## Change the output path object for every program:
+- Change the output path object for every program:
  FileOutputFormat.setOutputPath(job, new Path("out45" ));
  FileInputFormat.addInputPath(job1, new Path("out45"));
 
