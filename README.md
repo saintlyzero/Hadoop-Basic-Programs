@@ -1,5 +1,8 @@
 # Hadoop-Basic-Programs
-Basic Hadoop Programs
+Requirements:
+
+- Eclipse Plugin: hadoop-eclipse-plugin-2.6.0
+- Hadoop Jars: hadoop-2.7.1
 
 ## Changes Todo
 - Change the path over here:
@@ -14,7 +17,6 @@ FileOutputFormat.setOutputPath(job, new Path("output"));
 ```
 ## MapReduce programs on files containing text 
 
-- [Find Frequency of each word in the file](/NStacks.java)
 - [Find the word with the highest frequency from the input file](/WordHighFreq.java)
 - [Find occurance of a search query in the text file](/WordSearch.java)
 
